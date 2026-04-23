@@ -34,4 +34,5 @@ RUN chown -R www-data:www-data /var/www/storage /var/www/bootstrap/cache
 EXPOSE 80
 
 # Laravelni ishga tushirish buyrug'i
-CMD php artisan serve --host=0.0.0.0 --port=80
+# Eski CMD o'rniga shuni yozing:
+CMD php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=80
