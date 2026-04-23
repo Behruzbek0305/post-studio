@@ -38,6 +38,11 @@ composer require laravel/boost --dev
 
 php artisan boost:install
 ```
+Live Demo: https://post-studio.onrender.com .
+
+Tech Stack: Laravel 13, PHP 8.4, PostgreSQL, Docker, Vite/Tailwind.
+
+Installation: Loyihani lokalda qanday ishga tushirish bo‘yicha qisqacha yo‘riqnoma (git clone, docker-compose up).
 
 Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
 
